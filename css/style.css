@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Rules*/
+.pravidla {
+    padding: 10px;
+}
+.pravidla p {
+    font-weight: bold;
+}
+
+/*All page*/
+.allPage {
+    background: linear-gradient(white, greenyellow);
+    height: 100vh;
+}
+
+/*Playground*/
+.playGround {
+    width: 80%;
+    height: 80%;
+    background: linear-gradient(grey, white);
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    border-radius: 10px;
+}
+
+/*Total score*/
+.totalScore {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.totalScore p:nth-of-type(2) {
+    font-size: 40px;
+    text-align: center;
+}
+.totalScore0 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.totalScore1 {
+    position: absolute;
+    top: 15%;
+    left: 71%;
+}
+
+/* Current score*/
+.currentScore {
+    width: 150px;
+    height: 150px;
+    background: gold;
+    border-radius: 10px;
+}
+.currentScore p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.currentScore p:nth-child(2) {
+    font-size: 40px;
+}
+.currentScore0 {
+    position: absolute;
+    top: 40%;
+    left: 11%;
+}
+.currentScore1 {
+    position: absolute;
+    top: 40%;
+    right: 19%;
+}
+
+/*Middle text*/
+.middleText {
+    position: absolute;
+    top: 70%;
+    left: 41%;
+    text-align: center;
+    font-size: 25px;
+}
+.btn {
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: gold;
+}
+.btn:hover {
+    background: goldenrod;
+}
+
+/*Dice*/
+.dice {
+    position: absolute;
+    top: 30%;
+    left: 42%;
+}
+
+/*Active player*/
+.active {
+    color: white;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: black;
+}
